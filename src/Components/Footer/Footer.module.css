@@ -1,0 +1,89 @@
+.Footer {
+  background-color: #30303c !important;
+  padding: 30px 20px 20px 20px;
+  color: #adb7c5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Footer a {
+  text-decoration: none;
+  display: inline;
+  color: #adb7c5;
+}
+.FooterContentBox {
+  width: 90%;
+}
+
+.FooterServices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.FooterData {
+  display: flex;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.FooterDataSection {
+  width: 20%;
+  margin-right: 5%;
+}
+
+.FooterDataSection h2 {
+  margin-top: 0;
+}
+
+.FooterImages {
+  display: flex;
+  padding-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-bottom: 0.5px grey solid;
+}
+
+.FooterImageSection {
+  padding-right: 10px;
+}
+
+.FooterImages img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.FooterContactUsButton {
+  background-color: #ff6034;
+  border-radius: 100px;
+  border-width: 0px;
+  padding: 16px 20px 16px 20px;
+  text-align: center;
+  border-radius: 40px;
+  font-weight: 500;
+  text-align: center;
+  border: #ff5722 1px solid;
+  text-shadow: none;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.FooterContactUsButton a {
+  color: white !important;
+}
+
+.FooterContactUsButton:hover {
+  background-color: white;
+  border: #ff5722 1px solid;
+}
+
+.FooterContactUsButton:hover a {
+  color: #ff5722 !important;
+}
+
+
+.FooterDisclaimer{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
