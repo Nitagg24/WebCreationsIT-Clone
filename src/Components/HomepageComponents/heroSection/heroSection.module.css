@@ -1,0 +1,85 @@
+.heroSection {
+  padding: 10px;
+  display: inline-block;
+}
+
+.letsTalk {
+  background-color: #FF5B2E;
+  color: white;
+  border-radius: 100px;
+  border-width: 0px;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  display: block;
+}
+
+.letsTalk a {
+  font-style: normal;
+  text-decoration: none;
+  color:#fff;
+}
+
+
+.CertifyLogo img {
+  width: 20rem;
+  padding-top: 20px;
+}
+
+.socialButtons {
+  color: #FF6034;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80px;
+}
+.socialButtons a{
+  text-decoration: none;
+  color: #FF6034;
+}
+
+.socialButtons li{
+  background-color: #FCF1EF;
+  padding:5px;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.heroSection{
+  display: flex;
+  padding: 32px;
+  justify-content: space-between;
+}
+.heroDetails {
+  width: 50%;
+  float: left;
+}
+
+.HeroSectionDetails{
+  color:#52525D;
+  font-size: 20px;
+}
+.HeroHeading{
+  font-size: 50px;
+}
+
+.TechImage {
+  width: 100%;
+  text-align: center;
+}
+
+.TechImage img {
+  width: 100%;
+}
+.SecondHeroSection{
+  display: flex;
+  align-items: center;
+  margin-top: -60px;
+}
+
+.NumbersAndSocialMedia{
+  padding-right: 40px;
+}

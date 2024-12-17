@@ -1,0 +1,78 @@
+.WhatWeCanDo {
+  padding-top: 10px;
+  display: inline-block;
+  width: 100%;
+  background-color: #fbf1ef;
+}
+
+.CanDoGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.CanDoCard {
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 20px 26px 60px 26px;
+  box-shadow: 0 2px 18px 0px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.CanDoCardImg {
+  width: 72px;
+  border-radius: 8px;
+}
+
+.CanDoCardHeading {
+  font-size: 24px;
+  color: #30303c;
+}
+
+.CanDoCardDetails {
+  font-size: 16px;
+  color: #52525d;
+}
+
+.CanDoReadMore {
+  color: #30303c;
+}
+
+.CanDoReadMore:hover {
+  color: #ff5b2e !important;
+}
+
+.HireNowButton {
+  background-color: #ff6034;
+  border-radius: 100px;
+  border-width: 0px;
+  padding: 16px 40px 16px 40px;
+  text-align: center;
+  border-radius: 40px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  border: #ff5722 1px solid;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.HireNowButton:hover{
+  background-color: white;
+  border: #ff5722 1px solid;
+}
+.HireNowButton:hover a{
+  color: #ff5722;
+}
+
+.HireNowButton i{
+  padding-left: 5px;
+}
+
+.HireNowButton a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}

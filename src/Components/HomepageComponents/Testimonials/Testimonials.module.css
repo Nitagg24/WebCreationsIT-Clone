@@ -1,0 +1,48 @@
+.Testimonials {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.TestimonialHeading {
+  color: #ff5b2e;
+  padding: 0px 0px 10px;
+  font-size: 18px;
+  margin: 0;
+}
+
+.TestimonialSubHeading {
+  font-size: 30px;
+  padding: 0px 0px 10px;
+  margin: 0;
+}
+
+.TestimonialHeadings {
+  margin: auto;
+}
+
+.ClientName {
+  color: #ff5b2e;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: none;
+  text-align: center;
+  letter-spacing: normal;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+.rating i {
+  color: #ffb900;
+}
+.carousel {
+  width: 50%;
+  padding-left: 25%;
+}
+.custom-pagination {
+  position: inherit;
+  text-align: center;
+  margin-top: 30px;
+}

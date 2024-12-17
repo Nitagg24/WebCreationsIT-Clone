@@ -1,0 +1,49 @@
+.Blog {
+  background-color: #ffdccb;
+  padding-top: 20px;
+  text-align: center;
+}
+.BlogHeading {
+  color: #ff5b2e;
+  font-size: 18px;
+  padding: 0px 0px 10px;
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+}
+
+.BlogSubHeading {
+  font-size: 26px;
+  padding: 0px 0px 10px;
+  color: #30303c;
+}
+
+.BlogGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  box-sizing: border-box;
+  padding-right: 10px;
+  gap: 20px;
+  margin:auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.BlogCard {
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 18px 0px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.BlogGrid li{
+    padding-left: 10px;
+}
+
+.BlogCard img{
+    width:100%
+}
+
+.BlogCardText{
+  padding-left: 10px;
+  padding-right: 10px;
+}

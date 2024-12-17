@@ -1,0 +1,85 @@
+.AboutUs {
+  padding: 20px;
+}
+
+.AboutUsDetails {
+  width: 50%;
+  float: left;
+  color: #52525d;
+  line-height: 1.7em;
+  font-weight: 500;
+}
+.AboutUsProjects {
+  width: 50%;
+  float: right;
+}
+
+.projectsAndTeam {
+  width: 48%;
+  float: left;
+}
+.ClientsAndYears {
+  width: 50%;
+  float: right;
+}
+.Card {
+  list-style-type: none;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 30px 20px 20px 10px;
+  box-shadow: 0 2px 18px 0px rgba(0, 0, 0, 0.1);
+}
+.cardHeading {
+  color: #ff6034;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.cardSubHeading {
+  font-size: 42px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.cardDescription {
+  font-size: 16px;
+  padding-top: 10px;
+  color: #52525d;
+}
+
+.AwardImg {
+  object-fit: contain;
+  width: 100%;
+}
+
+.aboutUsButton {
+  border-width: 1px !important;
+  border-color: #ff5b2e;
+  border-radius: 40px;
+  font-size: 16px;
+  background-color: #ffffff;
+  padding-top: 18px !important;
+  padding-right: 40px !important;
+  padding-bottom: 18px !important;
+  padding-left: 40px !important;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.aboutUsButton a{
+  color: #ff5b2e !important;
+  text-decoration: none;
+}
+
+.aboutUsButton:hover{
+  background-color: #ff5b2e;
+}
+
+.aboutUsButton:hover a{
+  color: white !important;
+}
+
+
+.aboutUsButton i {
+  padding-left: 5px;
+}
