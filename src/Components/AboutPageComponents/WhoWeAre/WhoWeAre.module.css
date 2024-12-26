@@ -1,0 +1,51 @@
+.WhoWeAre {
+  display: flex;
+  align-items: center;
+  padding: 54px 0;
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+}
+
+.WhoWeAreContent {
+  display: flex;
+}
+
+.WhoWeAreDetailsSection {
+  width: 45%;
+  margin-right: 5%;
+  padding-right: 30px;
+}
+
+.WhoWeAreDetailsHeading {
+  color: #ff5b2e;
+  padding-bottom: 20px;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.WhoWeAreDetailsSubHeading {
+  color: #30303c;
+  font-size: 45px;
+  padding-bottom: 30px;
+  margin: 0px;
+  font-weight: 700;
+}
+
+.WhoWeAreDetails {
+  color: #52525d;
+  padding-bottom: 16px;
+  margin: 0px;
+  font-size: 16px;
+  font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif !important;
+  font-weight: 500;
+}
+
+.WhoWeAreImageSection {
+  width: 50%;
+}
+
+.WhoWeAreImageSection img {
+  width: 100%;
+  border-radius: 20px;
+}
