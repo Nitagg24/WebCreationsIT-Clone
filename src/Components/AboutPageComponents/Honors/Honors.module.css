@@ -1,0 +1,54 @@
+.Honors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 54px 0;
+}
+
+.HonorsContent {
+  width: 80%;
+  display: flex;
+  padding: 27px 0;
+  justify-content: space-between;
+}
+
+.HonorsHeadingSection {
+  width: 30%;
+}
+
+.HonorsHeading {
+  color: #ff5b2e;
+  font-size: 18px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.HonorsSubHeading {
+  font-size: 35px;
+  padding-bottom: 10;
+  color: #30303c;
+  margin: 0;
+}
+
+.AwardsCardGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:30px;
+}
+
+.AwardsCard {
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 30px 20px 20px 20px;
+  box-shadow: 0 2px 18px 0px rgba(0, 0, 0, 0.1);
+}
+
+.AwardsCardImg{
+    width:40%;
+}
+
+.AwardCardHeading{
+    font-size: 24px;
+    color: #30303c;
+}
